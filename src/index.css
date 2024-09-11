@@ -14,7 +14,7 @@
 
 
 #root {
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   display: relative;
 } 
@@ -75,6 +75,7 @@ footer button:hover{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-height: 100vh;
 }
 
 .bgImage{
@@ -150,12 +151,14 @@ footer button:hover{
   .sideBar{
     position: relative;
     inset: unset;
+    max-height: 100vh;
     min-width: 30%;
     box-shadow: 0 0 10px 10px #030615;
   }
 
   .sidebarContents{
     margin: unset;
+    width: 100%;
   }
 }
 
